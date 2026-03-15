@@ -1,0 +1,262 @@
+{
+  "products": [
+    {
+      "id": "4e730136-7f20-4f1d-a0a7-e745a247174d",
+      "code": "FLT001",
+      "name": "Filtro de Óleo",
+      "category": "Filtros",
+      "brand": "Bosch",
+      "unit": "UN",
+      "cost_price": 15.0,
+      "sale_price": 35.0,
+      "stock": 49,
+      "min_stock": 10,
+      "description": "Filtro de óleo universal"
+    },
+    {
+      "id": "d1339e39-1ea4-4d05-bfe7-02c53ea0afc5",
+      "code": "FLT002",
+      "name": "Filtro de Ar",
+      "category": "Filtros",
+      "brand": "Mann",
+      "unit": "UN",
+      "cost_price": 20.0,
+      "sale_price": 45.0,
+      "stock": 30,
+      "min_stock": 8,
+      "description": "Filtro de ar elemento seco"
+    },
+    {
+      "id": "07dd0799-9b80-42e2-bc85-6f75709a15eb",
+      "code": "FLT003",
+      "name": "Filtro de Combustível",
+      "category": "Filtros",
+      "brand": "WIX",
+      "unit": "UN",
+      "cost_price": 18.0,
+      "sale_price": 40.0,
+      "stock": 25,
+      "min_stock": 5,
+      "description": "Filtro de combustível injetado"
+    },
+    {
+      "id": "951720a9-d78e-4fbb-a9fc-23e0522d9b85",
+      "code": "FRE001",
+      "name": "Pastilha de Freio Dianteira",
+      "category": "Freios",
+      "brand": "Bosch",
+      "unit": "JG",
+      "cost_price": 45.0,
+      "sale_price": 95.0,
+      "stock": 20,
+      "min_stock": 5,
+      "description": "Par pastilha dianteira"
+    },
+    {
+      "id": "656a3360-b8b2-468e-bf0f-ab4379bf5a30",
+      "code": "FRE002",
+      "name": "Disco de Freio Dianteiro",
+      "category": "Freios",
+      "brand": "Brembo",
+      "unit": "UN",
+      "cost_price": 80.0,
+      "sale_price": 165.0,
+      "stock": 15,
+      "min_stock": 4,
+      "description": "Disco freio ventilado"
+    },
+    {
+      "id": "f636ca36-d050-492c-bbcd-1b39951e1124",
+      "code": "FRE003",
+      "name": "Fluido de Freio DOT4",
+      "category": "Freios",
+      "brand": "ATE",
+      "unit": "FR",
+      "cost_price": 12.0,
+      "sale_price": 28.0,
+      "stock": 40,
+      "min_stock": 10,
+      "description": "Fluido de freio 500ml"
+    },
+    {
+      "id": "4a6ad0ff-ba62-4271-a261-914a03812bd3",
+      "code": "OLE001",
+      "name": "Óleo 5W30 Sintético",
+      "category": "Óleos",
+      "brand": "Castrol",
+      "unit": "LT",
+      "cost_price": 28.0,
+      "sale_price": 55.0,
+      "stock": 100,
+      "min_stock": 20,
+      "description": "Óleo motor sintético"
+    },
+    {
+      "id": "35e2be05-366a-4600-bd41-9da20096fbb8",
+      "code": "OLE002",
+      "name": "Óleo 10W40 Semissintético",
+      "category": "Óleos",
+      "brand": "Mobil",
+      "unit": "LT",
+      "cost_price": 22.0,
+      "sale_price": 45.0,
+      "stock": 80,
+      "min_stock": 15,
+      "description": "Óleo motor semissintético"
+    },
+    {
+      "id": "e84cfd33-e623-43b7-9f78-7d742b1be4eb",
+      "code": "OLE003",
+      "name": "Óleo de Câmbio",
+      "category": "Óleos",
+      "brand": "Valvoline",
+      "unit": "LT",
+      "cost_price": 30.0,
+      "sale_price": 60.0,
+      "stock": 30,
+      "min_stock": 8,
+      "description": "Óleo câmbio automático"
+    },
+    {
+      "id": "82eef19e-beb8-4bbe-aacc-ab6bf1e03d58",
+      "code": "VEL001",
+      "name": "Vela de Ignição",
+      "category": "Motor",
+      "brand": "NGK",
+      "unit": "UN",
+      "cost_price": 12.0,
+      "sale_price": 25.0,
+      "stock": 5,
+      "min_stock": 10,
+      "description": "Vela ignição iridium"
+    },
+    {
+      "id": "a3dfc3a0-da5a-4663-bfcd-5b59a5497fa8",
+      "code": "BAT001",
+      "name": "Bateria 60Ah",
+      "category": "Elétrica",
+      "brand": "Moura",
+      "unit": "UN",
+      "cost_price": 280.0,
+      "sale_price": 450.0,
+      "stock": 10,
+      "min_stock": 3,
+      "description": "Bateria 60Ah selada"
+    },
+    {
+      "id": "50e035e0-6bf2-45fc-b293-84c7cc442b7d",
+      "code": "ALT001",
+      "name": "Correia Alternador",
+      "category": "Motor",
+      "brand": "Dayco",
+      "unit": "UN",
+      "cost_price": 35.0,
+      "sale_price": 72.0,
+      "stock": 18,
+      "min_stock": 5,
+      "description": "Correia poly-v alternador"
+    },
+    {
+      "id": "136136c8-bbcd-43f4-b23c-e08992a0214d",
+      "code": "SUS001",
+      "name": "Amortecedor Dianteiro",
+      "category": "Suspensão",
+      "brand": "Monroe",
+      "unit": "UN",
+      "cost_price": 120.0,
+      "sale_price": 220.0,
+      "stock": 8,
+      "min_stock": 2,
+      "description": "Amortecedor a gás dianteiro"
+    },
+    {
+      "id": "b12e9627-809e-4936-ae1a-dd6581fa4bc5",
+      "code": "SUS002",
+      "name": "Barra Estabilizadora",
+      "category": "Suspensão",
+      "brand": "TRW",
+      "unit": "UN",
+      "cost_price": 65.0,
+      "sale_price": 130.0,
+      "stock": 6,
+      "min_stock": 2,
+      "description": "Buchas barra estabilizadora"
+    },
+    {
+      "id": "967db60e-43ed-4103-bf0f-f7e590fa139b",
+      "code": "RAD001",
+      "name": "Radiador",
+      "category": "Arrefecimento",
+      "brand": "Valeo",
+      "unit": "UN",
+      "cost_price": 350.0,
+      "sale_price": 620.0,
+      "stock": 4,
+      "min_stock": 1,
+      "description": "Radiador alumínio completo"
+    }
+  ],
+  "customers": [
+    {
+      "id": "4a8f389f-30aa-4e43-ab6c-972e40da41cb",
+      "name": "João Carlos Silva",
+      "cpf_cnpj": "123.456.789-00",
+      "phone": "(21) 98765-4321",
+      "email": "joao@email.com",
+      "address": "Rua das Flores, 100 - Centro"
+    },
+    {
+      "id": "ed4f8e6e-77b0-4aa6-8b50-8b397fa10009",
+      "name": "Maria Santos Oliveira",
+      "cpf_cnpj": "987.654.321-00",
+      "phone": "(21) 91234-5678",
+      "email": "maria@email.com",
+      "address": "Av. Brasil, 200 - Barra"
+    },
+    {
+      "id": "44794aeb-f9b3-4455-86da-0ad972b9ef2e",
+      "name": "Auto Center Mega Ltda",
+      "cpf_cnpj": "12.345.678/0001-90",
+      "phone": "(21) 3333-4444",
+      "email": "contato@megaauto.com",
+      "address": "Rod. Presidente Dutra, 300"
+    },
+    {
+      "id": "8b970a5f-c62e-4ab8-94eb-442eb3cc8227",
+      "name": "Pedro Melo Mecânica",
+      "cpf_cnpj": "45.678.901/0001-23",
+      "phone": "(21) 97777-8888",
+      "email": "pedro@mecanica.com",
+      "address": "Rua Industrial, 55 - Nova Iguaçu"
+    }
+  ],
+  "sales": [
+    {
+      "customer_id": "",
+      "customer_name": "Consumidor Final",
+      "items": [
+        {
+          "product_id": "4e730136-7f20-4f1d-a0a7-e745a247174d",
+          "code": "FLT001",
+          "name": "Filtro de Óleo",
+          "quantity": 1,
+          "unit_price": 35.0,
+          "discount": 0.0
+        }
+      ],
+      "subtotal": 35.0,
+      "discount_pct": 10.0,
+      "discount_value": 3.5,
+      "total": 31.5,
+      "payment_method": "Dinheiro",
+      "observations": "",
+      "status": "concluída",
+      "id": "db9eae8e-75f2-4396-b5e5-dffcfd96b4fa",
+      "date": "2026-03-15T10:49:44.672663"
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "background_image": ""
+  }
+}
