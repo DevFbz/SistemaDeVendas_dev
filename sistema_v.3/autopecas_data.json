@@ -230,7 +230,56 @@
       "address": "Rua Industrial, 55"
     }
   ],
-  "sales": [],
+  "sales": [
+    {
+      "customer_id": "",
+      "customer_name": "Consumidor Final",
+      "items": [
+        {
+          "product_id": "ee00e62a-abcc-4d54-a19a-5c7ea86db691",
+          "code": "FLT003",
+          "name": "Filtro de Combustivel",
+          "quantity": 3,
+          "unit_price": 40.0,
+          "discount": 0.0
+        },
+        {
+          "product_id": "532e5264-ed2e-41c7-8844-ac539398ba63",
+          "code": "FLT002",
+          "name": "Filtro de Ar",
+          "quantity": 1,
+          "unit_price": 45.0,
+          "discount": 0.0
+        },
+        {
+          "product_id": "342c401c-97e8-40d7-99e7-f6c4af249ccf",
+          "code": "FRE001",
+          "name": "Pastilha de Freio Dianteira",
+          "quantity": 1,
+          "unit_price": 95.0,
+          "discount": 0.0
+        },
+        {
+          "product_id": "ce836d3b-7311-442f-9237-4980500c5454",
+          "code": "SUS001",
+          "name": "Amortecedor Dianteiro",
+          "quantity": 1,
+          "unit_price": 220.0,
+          "discount": 0.0
+        }
+      ],
+      "subtotal": 480.0,
+      "discount_pct": 0.0,
+      "discount_value": 0.0,
+      "total": 480.0,
+      "payment_method": "Cartao de Credito",
+      "observations": "",
+      "status": "cancelada",
+      "id": "b57b5d5c-7cb4-4e21-9d79-28e516e0135a",
+      "date": "2026-03-15T13:03:56.671424",
+      "cancelled_at": "2026-03-15T13:04:17.787484"
+    }
+  ],
   "users": [
     {
       "id": "admin-fixed",
