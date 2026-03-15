@@ -1,0 +1,257 @@
+{
+  "products": [
+    {
+      "id": "799ed833-e3cc-435c-87b3-f12c7e5d67c4",
+      "code": "FLT001",
+      "name": "Filtro de Oleo",
+      "category": "Filtros",
+      "brand": "Bosch",
+      "unit": "UN",
+      "cost_price": 15.0,
+      "sale_price": 35.0,
+      "stock": 50,
+      "min_stock": 10,
+      "description": ""
+    },
+    {
+      "id": "532e5264-ed2e-41c7-8844-ac539398ba63",
+      "code": "FLT002",
+      "name": "Filtro de Ar",
+      "category": "Filtros",
+      "brand": "Mann",
+      "unit": "UN",
+      "cost_price": 20.0,
+      "sale_price": 45.0,
+      "stock": 30,
+      "min_stock": 8,
+      "description": ""
+    },
+    {
+      "id": "ee00e62a-abcc-4d54-a19a-5c7ea86db691",
+      "code": "FLT003",
+      "name": "Filtro de Combustivel",
+      "category": "Filtros",
+      "brand": "WIX",
+      "unit": "UN",
+      "cost_price": 18.0,
+      "sale_price": 40.0,
+      "stock": 25,
+      "min_stock": 5,
+      "description": ""
+    },
+    {
+      "id": "342c401c-97e8-40d7-99e7-f6c4af249ccf",
+      "code": "FRE001",
+      "name": "Pastilha de Freio Dianteira",
+      "category": "Freios",
+      "brand": "Bosch",
+      "unit": "JG",
+      "cost_price": 45.0,
+      "sale_price": 95.0,
+      "stock": 20,
+      "min_stock": 5,
+      "description": ""
+    },
+    {
+      "id": "2214b10f-9154-40c9-9d6c-6b8abb395fce",
+      "code": "FRE002",
+      "name": "Disco de Freio Dianteiro",
+      "category": "Freios",
+      "brand": "Brembo",
+      "unit": "UN",
+      "cost_price": 80.0,
+      "sale_price": 165.0,
+      "stock": 15,
+      "min_stock": 4,
+      "description": ""
+    },
+    {
+      "id": "f09361c9-9170-44c0-a7ac-64e2ce2249e4",
+      "code": "FRE003",
+      "name": "Fluido de Freio DOT4",
+      "category": "Freios",
+      "brand": "ATE",
+      "unit": "FR",
+      "cost_price": 12.0,
+      "sale_price": 28.0,
+      "stock": 40,
+      "min_stock": 10,
+      "description": ""
+    },
+    {
+      "id": "77e41ec8-9b3b-4b03-b6cd-c96322775364",
+      "code": "OLE001",
+      "name": "Oleo 5W30 Sintetico",
+      "category": "Oleos",
+      "brand": "Castrol",
+      "unit": "LT",
+      "cost_price": 28.0,
+      "sale_price": 55.0,
+      "stock": 100,
+      "min_stock": 20,
+      "description": ""
+    },
+    {
+      "id": "38c0df62-3eb9-4719-92d7-571b4618cee3",
+      "code": "OLE002",
+      "name": "Oleo 10W40 Semissintetico",
+      "category": "Oleos",
+      "brand": "Mobil",
+      "unit": "LT",
+      "cost_price": 22.0,
+      "sale_price": 45.0,
+      "stock": 80,
+      "min_stock": 15,
+      "description": ""
+    },
+    {
+      "id": "c11124f9-c1cb-4e3d-8f86-ed1c20c856b4",
+      "code": "OLE003",
+      "name": "Oleo de Cambio",
+      "category": "Oleos",
+      "brand": "Valvoline",
+      "unit": "LT",
+      "cost_price": 30.0,
+      "sale_price": 60.0,
+      "stock": 30,
+      "min_stock": 8,
+      "description": ""
+    },
+    {
+      "id": "cd2f2895-0100-4c90-b9d5-e0c73b1082e5",
+      "code": "VEL001",
+      "name": "Vela de Ignicao",
+      "category": "Motor",
+      "brand": "NGK",
+      "unit": "UN",
+      "cost_price": 12.0,
+      "sale_price": 25.0,
+      "stock": 5,
+      "min_stock": 10,
+      "description": ""
+    },
+    {
+      "id": "3bb50e25-f620-427a-b6f8-e782daff62d5",
+      "code": "BAT001",
+      "name": "Bateria 60Ah",
+      "category": "Eletrica",
+      "brand": "Moura",
+      "unit": "UN",
+      "cost_price": 280.0,
+      "sale_price": 450.0,
+      "stock": 10,
+      "min_stock": 3,
+      "description": ""
+    },
+    {
+      "id": "d593b0fd-dd66-4353-91b9-299bc2c67ffe",
+      "code": "ALT001",
+      "name": "Correia Alternador",
+      "category": "Motor",
+      "brand": "Dayco",
+      "unit": "UN",
+      "cost_price": 35.0,
+      "sale_price": 72.0,
+      "stock": 18,
+      "min_stock": 5,
+      "description": ""
+    },
+    {
+      "id": "ce836d3b-7311-442f-9237-4980500c5454",
+      "code": "SUS001",
+      "name": "Amortecedor Dianteiro",
+      "category": "Suspensao",
+      "brand": "Monroe",
+      "unit": "UN",
+      "cost_price": 120.0,
+      "sale_price": 220.0,
+      "stock": 8,
+      "min_stock": 2,
+      "description": ""
+    },
+    {
+      "id": "893eceda-567b-4092-98be-531bae4889c1",
+      "code": "SUS002",
+      "name": "Barra Estabilizadora",
+      "category": "Suspensao",
+      "brand": "TRW",
+      "unit": "UN",
+      "cost_price": 65.0,
+      "sale_price": 130.0,
+      "stock": 6,
+      "min_stock": 2,
+      "description": ""
+    },
+    {
+      "id": "eac62e05-7669-4bd5-9206-0a393a1b8047",
+      "code": "RAD001",
+      "name": "Radiador",
+      "category": "Arrefecimento",
+      "brand": "Valeo",
+      "unit": "UN",
+      "cost_price": 350.0,
+      "sale_price": 620.0,
+      "stock": 4,
+      "min_stock": 1,
+      "description": ""
+    }
+  ],
+  "customers": [
+    {
+      "id": "fe0892b2-0fce-4a3c-b7ce-84fda5ca2f07",
+      "name": "Joao Carlos Silva",
+      "cpf_cnpj": "123.456.789-00",
+      "phone": "(21) 98765-4321",
+      "email": "joao@email.com",
+      "address": "Rua das Flores, 100"
+    },
+    {
+      "id": "acd18303-c7f9-4e15-aae4-a3c419a400e6",
+      "name": "Maria Santos Oliveira",
+      "cpf_cnpj": "987.654.321-00",
+      "phone": "(21) 91234-5678",
+      "email": "maria@email.com",
+      "address": "Av. Brasil, 200"
+    },
+    {
+      "id": "28965645-19f5-43a0-a439-b156ec19816f",
+      "name": "Auto Center Mega Ltda",
+      "cpf_cnpj": "12.345.678/0001-90",
+      "phone": "(21) 3333-4444",
+      "email": "contato@mega.com",
+      "address": "Rod. Dutra, 300"
+    },
+    {
+      "id": "3c715558-22b2-449c-af97-ee2ce81ea845",
+      "name": "Pedro Melo Mecanica",
+      "cpf_cnpj": "45.678.901/0001-23",
+      "phone": "(21) 97777-8888",
+      "email": "pedro@mec.com",
+      "address": "Rua Industrial, 55"
+    }
+  ],
+  "sales": [],
+  "users": [
+    {
+      "id": "admin-fixed",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "name": "Administrador",
+      "active": true
+    },
+    {
+      "id": "func-fixed",
+      "username": "funcionario",
+      "password": "123moto",
+      "role": "operator",
+      "name": "Funcionario",
+      "active": true
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "background_image": "",
+    "accent_color": "#FF6B35"
+  }
+}
