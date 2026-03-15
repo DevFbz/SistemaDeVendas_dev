@@ -1216,6 +1216,7 @@ class MainWindow(QMainWindow):
         if self.is_admin:
             bs=QPushButton("  Configuracoes"); bs.setObjectName("nav_btn"); bs.setMinimumHeight(42); bs.clicked.connect(self._settings); sl.addWidget(bs)
             bb=QPushButton("  Backup"); bb.setObjectName("nav_btn"); bb.setMinimumHeight(42); bb.clicked.connect(self._backup); sl.addWidget(bb)
+        btc=QPushButton("  Trocar Conta"); btc.setObjectName("nav_btn"); btc.setMinimumHeight(42); btc.clicked.connect(self._switch_account); sl.addWidget(btc)
         bo=QPushButton("  Sair"); bo.setObjectName("nav_btn"); bo.setMinimumHeight(42); bo.clicked.connect(self._logout); sl.addWidget(bo)
         ml.addWidget(self.sidebar); ml.addWidget(self.content,1)
         sb=QStatusBar(); self.setStatusBar(sb)
@@ -1253,6 +1254,20 @@ class MainWindow(QMainWindow):
             import shutil
             try: shutil.copy2(DATA_FILE,p); QMessageBox.information(self,"  Backup OK",f"Salvo em:\n{p}")
             except Exception as e: QMessageBox.critical(self,"Erro",str(e))
+    def _switch_account(self):
+        """Close current session and show login without closing the app."""
+        reply = QMessageBox.question(
+            self, "Trocar Conta",
+            f"Deseja trocar de conta?\n\nUsuario atual: {self.user.get('name', '')}",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.close()
+            win = LoginWindow()
+            win.show()
+            scr = QApplication.instance().primaryScreen().geometry()
+            win.move((scr.width() - win.width()) // 2, (scr.height() - win.height()) // 2)
+
     def _logout(self):
         if QMessageBox.question(self,"Sair","Deseja sair do sistema?",QMessageBox.Yes|QMessageBox.No)==QMessageBox.Yes:
             self.close(); w=LoginWindow(); w.show()
@@ -1294,7 +1309,7 @@ class LoginWindow(QWidget):
         btn=QPushButton("ENTRAR  >"); btn.setMinimumHeight(48)
         btn.setStyleSheet("QPushButton{background:qlineargradient(x1:0,y1:0,x2:1,y2:0,stop:0 #FF6B35,stop:1 #FF8C5A);color:white;border:none;border-radius:10px;font-size:15px;font-weight:bold;letter-spacing:2px;}QPushButton:hover{background:qlineargradient(x1:0,y1:0,x2:1,y2:0,stop:0 #FF8C5A,stop:1 #FFAA80);}QPushButton:pressed{background:#CC4F1F;}")
         btn.clicked.connect(self._login); bl.addWidget(btn); bl.addStretch()
-        vl=QLabel("v2.0  |  Admin: admin/admin  |  Funcionario: funcionario/123moto")
+        vl=QLabel("v2.0  |  Funcionario: funcionario / 123moto")
         vl.setAlignment(Qt.AlignCenter); vl.setStyleSheet("font-size:10px;color:#444;margin-top:8px;"); bl.addWidget(vl)
         lay.addWidget(bg)
     def _login(self):
